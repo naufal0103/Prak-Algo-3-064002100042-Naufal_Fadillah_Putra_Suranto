@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 28 17:37:52 2021
+
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@")
+
+a=int(input("masukan angka awal = "))
+b=int(input("masukan angka akhir = "))
+while a<b:
+  print(a, b)
+  a = a+1
+  b = b-1
