@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 28 17:18:49 2021
+
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@")
+
+a = int(input("Masukan total belanjaan= "))
+b = int(input("Masukan jumlah uang kamu= "))
+kembalian = (b-a)
+print("uang kembalian = ", "Rp.",kembalian)
+uang_pecahan =[100000, 50000, 20000, 10000, 5000, 2000, 1000,]
+jumlah_pecahan={}
+sisa = kembalian 
+for pecahan in uang_pecahan : 
+    if sisa < pecahan : 
+        continue 
+    banyak_pecahan = int(sisa/pecahan)
+    sisa = sisa - (pecahan * banyak_pecahan)
+    print('uang Rp{} sebanyak: {} lembar'.format(pecahan,banyak_pecahan))
+    
+    
